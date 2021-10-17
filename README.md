@@ -1,6 +1,6 @@
 # Karasic Addon
-https://discord.gg/chJNFZzTgq<br/>
-Addon for [Meteor Client](https://meteorclient.com/) by Kiriyaga(ajaj#7615)
+Addon for [Meteor Client](https://meteorclient.com/) by Kiriyaga(ajaj#7615)<br/>
+https://discord.gg/chJNFZzTgq
 
 - download jar file and run it with latest [Meteor Client](https://meteorclient.com/).
 - also you can build it by yourself.
