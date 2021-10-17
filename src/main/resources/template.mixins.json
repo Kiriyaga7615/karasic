@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "bedtrap.kiriyaga.karasic.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "TitleScreenMixin",
+    "PrefixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

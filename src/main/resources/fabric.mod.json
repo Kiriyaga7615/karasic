@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "karasic-addon",
+  "version": "${version}",
+  "name": "karasic-addon",
+  "description": "karasic addon by kiriyaga(ajaj#7615)",
+  "authors": [
+    "Kiriyaga"
+  ],
+  "contact": {
+    "repo": "https://github.com/Kiriyaga7615/karasic"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "bedtrap.kiriyaga.karasic.KarasicAddon"
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">1.17",
+    "meteor-client": ">0.4.3"
+  }
+}
