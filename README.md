@@ -1,17 +1,18 @@
-# Karasic addon
+# Karasic Addon
 https://discord.gg/chJNFZzTgq
-addon for meteor client by kiriyaga(ajaj#7615)
+Addon for [Meteor Client](https://meteorclient.com/) by Kiriyaga(ajaj#7615)
 
-- download .jar file(or build it by yourself) and run it with latest meteor client
+- download jar file and run it with latest [Meteor Client](https://meteorclient.com/).
+- also you can build it by yourself.
 
 # list of all modules:
 
-- anti respawn lose
-- cool block renderer
-- rpc
-- hud notifications
-- pyramid surround
-- max range checker
-- tnt aura
-- totem auto log
-
+- Ajaj Aura
+- Anti Respawn Lose
+- Cool Block Renderer
+- RPC
+- Hud Notifications
+- Pyramid Surround
+- Range Checker
+- TNT Aura
+- Totem Auto Log
