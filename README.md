@@ -2,7 +2,7 @@
 Addon for [Meteor Client](https://meteorclient.com/) by Kiriyaga(ajaj#7615)<br/>
 https://discord.gg/chJNFZzTgq
 
-- download jar file and run it with latest [Meteor Client](https://meteorclient.com/).
+- download jar file and run it with latest dev build of [Meteor Client](https://meteorclient.com/).
 - also you can build it by yourself.
 
 # list of all modules:
