@@ -7,7 +7,7 @@ https://discord.gg/chJNFZzTgq
 
 # list of all modules:
 
-- Ajaj Aura
+- prefix lol
 - Anti Respawn Lose
 - Cool Block Renderer
 - RPC
