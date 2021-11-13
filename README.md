@@ -16,3 +16,6 @@ https://discord.gg/chJNFZzTgq
 - Range Checker
 - TNT Aura
 - Totem Auto Log
+- city breaker(with primitive silent swap)
+- selftrapik
+- autotrapik

